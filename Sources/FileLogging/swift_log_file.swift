@@ -57,7 +57,7 @@ public struct FileLogHandler: LogHandler {
     private let stream: TextOutputStream
     private var label: String
     
-    public var logLevel: Logger.Level = .info
+    public var logLevel: Logger.Level = .trace // FIXME - why was this hardcoded?
 
     private var prettyMetadata: String?
     public var metadata = Logger.Metadata() {
