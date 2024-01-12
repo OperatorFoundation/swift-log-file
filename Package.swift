@@ -11,7 +11,7 @@ let package = Package(
             targets: ["FileLogging"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
+        .package(url: "https://github.com/apple/swift-log.git", from: "1.5.3"),
     ],
     targets: [
         .target(
